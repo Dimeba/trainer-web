@@ -1,0 +1,13 @@
+//ne znam ubaciti.. 
+.social-icons {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 3rem;
+
+  a {
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+  }
+}

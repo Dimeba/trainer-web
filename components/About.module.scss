@@ -1,0 +1,22 @@
+@use "@/app/base";
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-left: 1.9rem;
+  padding-right: 1.9rem;
+  max-width: 100%;
+
+  p {
+    margin-top: 8rem;
+    margin-bottom: 10rem;
+    max-width: 100%;
+    font-size: 15.4px;
+
+    &:first-line {
+      white-space: nowrap;
+    }
+  }
+}

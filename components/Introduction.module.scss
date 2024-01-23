@@ -1,0 +1,28 @@
+@use "@/app/base";
+
+.introduction {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10rem 1.9rem 10rem 1.9rem;
+
+  .experience {
+    margin-left: 1.9rem;
+  }
+
+  .highlight {
+    font-size: 64px;
+    color: #cd9322;
+    font-weight: bold;
+  }
+
+  .years {
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+  }
+
+  .brief {
+    font-size: 16px;
+    text-align: left;
+  }
+}

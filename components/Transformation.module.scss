@@ -1,0 +1,18 @@
+@use "@/app/base";
+
+.transformation {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 1.9rem;
+  max-width: 100%;
+
+  img {
+    margin: 4% 0 4rem 0;
+  }
+
+  .moto {
+    margin: 2rem;
+  }
+}

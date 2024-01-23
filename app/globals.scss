@@ -1,17 +1,19 @@
-@use '@/app/base';
+@use "@/app/base";
 
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  box-sizing: border-box; /* Postavljanje box-sizing na border-box za sve elemente */
+
 }
 
 body {
-	background-color: black;
-	color: white;
+  background-color: black;
+  color: white;
 }
 
 h1 {
-	font-size: 4rem;
+  font-size: 4rem;
 }

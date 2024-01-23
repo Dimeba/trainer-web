@@ -1,0 +1,48 @@
+// Questions.module.scss
+
+@use "@/app/base";
+
+.questions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.9rem;
+  flex-direction: row;
+
+  h2 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    margin-bottom: 2rem;
+    margin-left: 35rem;
+    order: -1;
+  }
+
+  .group {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 25rem;
+
+    > div {
+      margin: 0 1rem;
+
+      p {
+        white-space: nowrap;
+        font-size: 16px;
+      }
+
+      hr {
+        margin: 2rem auto 2rem auto;
+        max-width: 7rem;
+        text-align: center;
+      }
+      h3 {
+        font-size: 16px;
+      }
+    }
+  }
+}
