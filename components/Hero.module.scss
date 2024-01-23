@@ -3,11 +3,12 @@
 .hero {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  
   text-align: left;
   margin-top: 3.2rem;
   padding: 1.25rem;
   margin: 1.9rem;
-  align-items: flex-start;
 
   .name {
     color: #cd9322;

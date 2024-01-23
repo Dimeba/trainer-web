@@ -7,9 +7,9 @@ const About = () => {
         <p>
           U opisu posla svakog ozbiljnog trenera kome je stalo do svog vezbača
           jeste da prepozna u kakvom je mentalnom stanju vezbač došao na
-          trening, da li je umoran, neispavan, rasejan, itd..i prema stanju{" "}
-          <br /> trener koncipira trening. Svoj posao smatram odgovornim, pa se
-          tako i ophodim prema njemu.
+          trening, da li je umoran, neispavan, rasejan, itd..i prema stanju 
+          trener koncipira trening. Svoj posao smatram odgovornim, pa se tako i
+          ophodim prema njemu.
         </p>
       </div>
     </div>

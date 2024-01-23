@@ -6,7 +6,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   box-sizing: border-box; /* Postavljanje box-sizing na border-box za sve elemente */
-
+ 
 }
 
 body {
@@ -17,3 +17,52 @@ body {
 h1 {
   font-size: 4rem;
 }
+
+.backImage {
+  background-image: url("../images/hero-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.footerImage {
+  background-image: url("../images/footer-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 1.9rem;
+  flex-direction: row;
+
+  > div {
+    flex: 1;
+    text-align: center;
+
+    h2 {
+      margin: 1.5rem 0;
+      font-size: 24px;
+    }
+
+    hr {
+      margin: 2rem auto 2rem auto;
+      max-width: 7rem;
+      text-align: center;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    text-align: center;
+    align-self: center;
+    white-space: pre-wrap;
+  }
+
+
+    
+  }
